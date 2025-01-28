@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionServicios.Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionServicios.Infrastructure", "GestionServicios.Infrastructure\GestionServicios.Infrastructure.csproj", "{7F7DE827-7CE9-46E2-A177-FAFB6F2195EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionServicios.WebApi", "GestionServicios.WebApi\GestionServicios.WebApi.csproj", "{EB1B1680-AC76-4BCE-9A31-B601FBD36539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionServicios.WebApi", "GestionServicios.WebApi\GestionServicios.WebApi.csproj", "{EB1B1680-AC76-4BCE-9A31-B601FBD36539}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionServicios.Test", "GestionServicios.Test\GestionServicios.Test.csproj", "{32FB2DD9-B14E-4D63-B02D-C1C19145F7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB1B1680-AC76-4BCE-9A31-B601FBD36539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1B1680-AC76-4BCE-9A31-B601FBD36539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB1B1680-AC76-4BCE-9A31-B601FBD36539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FB2DD9-B14E-4D63-B02D-C1C19145F7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FB2DD9-B14E-4D63-B02D-C1C19145F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FB2DD9-B14E-4D63-B02D-C1C19145F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FB2DD9-B14E-4D63-B02D-C1C19145F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
