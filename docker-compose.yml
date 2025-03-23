@@ -1,0 +1,6 @@
+services:
+  gestionservicios.webapi:
+    image: ${DOCKER_REGISTRY-}gestionservicioswebapi
+    build:
+      context: .
+      dockerfile: GestionServicios.WebApi/Dockerfile
